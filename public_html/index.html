@@ -3,19 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Matthew Gallegos Portfolio</title>
+	<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+
+
 </head>
 <body>
 <h1>Matthew Gallegos</h1>
 <h2>About me:</h2>
 <p>I grew up in Albuquerque New Mexico, I graduated from Amy Biehl high school in 2019. There I took dual credit classes
 at CNM, I took business professionalism and Intro to Art. As a graduation requirement I also volunteered for over 100
-hours at ECHO a local food bank for senior citizens.</p>
+hours at ECHO a local food bank for senior citizens. After High school I took </p>
 <h2>Portfolio:</h2>
 <p></p>
-<h2>Contact Me:</h2>
-<p>Name:</p>
-<p>Phone:</p>
-<p>Email:</p>
-<p>Message:</p>
+
+<div class="contactForm">
+	<form action="action_page.php">
+
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		<label for="email">Email</label>
+		<input type="text" id="email" name="Email" placeholder="Your email address">
+
+		<label for="message">Message</label>
+		<textarea id="message" name="message" placeholder="Your message!" style="height:200px"></textarea>
+
+		<input type="submit" value="Submit">
+
+	</form>
+</div>
+
 </body>
 </html>
