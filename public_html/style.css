@@ -4,5 +4,7 @@ body{
 	width:100%;
 }
 
-
+.background-image{
+	object-fit: cover;
+}
 

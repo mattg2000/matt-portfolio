@@ -16,9 +16,10 @@ $("#contact").validate({
 		},
 		message:{
 			required: true,
-			maxLength: 2000
+			maxlength: 2000
 		}
 	},
+
 	//error message to be displayed to the end user when rules above dont pass
 	messages:{
 		name:{
@@ -27,10 +28,10 @@ $("#contact").validate({
 		email:{
 			required: "email is required field",
 			email: "Invalid email"
-		}
+		},
 		message:{
 			required: "Message is required",
-			maxLength: "Message is too long"
+			maxlength: "Message is too long"
 		}
 	},
 	submitHandler: function(form) {

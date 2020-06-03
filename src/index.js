@@ -9,19 +9,19 @@ const bodyParser = require('body-parser')
 const app = express()
 
 //project wide middleware declerations for express//
-
+app.use(express.json())
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({extended:false}))
-app.use(bodyParser.json)
+app.use(bodyParser.json())
 
 const indexRoute = express.Router()
 
 indexRoute.route('/apis').get((request, response)=>{
 return response.json('hello')
 })
-	.post(request, response) => {
+	.post((request, response) => {
 	//this line bellow must be commented out before pwp has been hosted using docker//
-	response.append('Access-Control-Allow-Origin', value:['*']);
+	response.append('Access-Control-Allow-Origin', 'value:['*']');
 	console.log(request.body)
 	return response.json('is this thing on?')
 })
