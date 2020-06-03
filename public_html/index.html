@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Matthew Gallegos Portfolio</title>
+
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 				integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -51,7 +52,7 @@
 </div>
 	</div>
 
-
+<div class="portfolio">
 <h1>Portfolio:</h1>
 <p>These are some of my favorite and best pieces of work.</p>
 <div class="card-group">
@@ -80,11 +81,11 @@
 		</div>
 	</div>
 </div>
+</div>
 
-
+<div class="contact">
 <h2>Contact Me:</h2>
-
-<form action="http://localhost:4200/apis" id="contact" method="post">
+<form action="/apis/" id="contact" method="post">
 	<div class="form-group">
 		<label for="name">Name</label>
 		<div class="input-group">
@@ -127,12 +128,14 @@
 								rows="5"></textarea>
 		</div>
 	</div>
-
+	<div class="recaptcha" data-sitekey="6Lctwv8UAAAAAGGh3jHo_ad-IHR6VjwvykzSfnFN">
+	</div>
 	<button class="btn btn-info" type="submit">Submit</button>
 	<button class="btn btn-default" type="reset">Reset</button>
 </form>
+</div>
 
-<footer>This is the footer</footer>
+<footer class="foot">This is the footer</footer>
 
 
 <script>

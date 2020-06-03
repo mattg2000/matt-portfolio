@@ -3,10 +3,14 @@ body{
 	padding:0;
 	width:100%;
 }
+.navbar-collapse{
+	background-color: #66594C;
+}
 
 .jumbotron-fluid{
 	background-image: url("marquee_header.jpg");
 	background-size: cover;
+	font-family: "Roboto Thin";
 }
 
 .jumbotron{
@@ -25,8 +29,30 @@ body{
 
 .col-md-6{
 	text-align: center;
+	color: #66594C;
 }
 
 .aboutme{
 	background-color: skyblue;
+	padding: 20px;
+	font-family: "Roboto Thin";
+}
+
+.portfolio{
+	background-color: #66594C;
+	padding: 20px;
+	color: whitesmoke;
+}
+
+.contact{
+	background-color: skyblue;
+	padding: 20px;
+	color: #66594C;
+}
+
+.foot{
+	text-align: center;
+	background-color: #66594C;
+	color: whitesmoke;
+	padding: 10px;
 }
