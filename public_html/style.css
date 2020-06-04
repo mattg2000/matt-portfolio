@@ -5,16 +5,18 @@ body{
 }
 .navbar-collapse{
 	background-color: #66594C;
+	padding: 0px;
 }
 
 .jumbotron-fluid{
 	background-image: url("marquee_header.jpg");
 	background-size: cover;
 	font-family: "Roboto Thin";
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
-
-.jumbotron{
-	padding-bottom: 30px;
+.container{
+	color: #66594C;
 }
 
 .about-img {
@@ -58,10 +60,10 @@ body{
 }
 
 .portfolio1{
-	postion: relative;
+	position: center;
 	background: #66594C;
 	height: auto;
-	width: 400px;
+	width: 300px;
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
@@ -69,6 +71,11 @@ body{
 
 .card-group{
 	color: #66594C;
+	text-align: center;
+}
+
+.card-body{
+	text-align: center;
 }
 
 .card{
