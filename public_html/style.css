@@ -56,3 +56,21 @@ body{
 	color: whitesmoke;
 	padding: 10px;
 }
+
+.portfolio1{
+	postion: relative;
+	background: #66594C;
+	height: auto;
+	width: 400px;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+.card-group{
+	color: #66594C;
+}
+
+.card{
+	background-color: skyblue;
+}
