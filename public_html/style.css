@@ -99,3 +99,10 @@ body{
 	color: #66594C;
 }
 
+.gcap{
+	text-align: center;
+}
+
+.g-recaptcha {
+	display: inline-block;
+}
