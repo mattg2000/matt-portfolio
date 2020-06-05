@@ -12,6 +12,12 @@ body{
 	margin: 0px;
 }
 
+
+.container-fluid{
+	color: whitesmoke;
+	fon
+}
+
 .jumbotron-fluid{
 	background-image: url("marquee_header.jpg");
 	background-size: cover;
@@ -41,6 +47,7 @@ body{
 	padding: 20px;
 	font-family: "Roboto Thin";
 	margin: 10px;
+	color: #66594C;
 }
 
 .portfolio{
@@ -49,14 +56,13 @@ body{
 	color: whitesmoke;
 	margin: 10px;
 	text-align: center;
-	margin-bottom: 5px;
 }
 
 .contact{
 	background-color: skyblue;
 	color: #66594C;
 	margin: 10px;
-	padding-top: 20px;
+	padding: 20px;
 }
 
 .foot{
@@ -107,4 +113,20 @@ body{
 
 .g-recaptcha {
 	display: inline-block;
+}
+
+.btn-linkedin {
+	background: skyblue;
+	border-radius: 0;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #66594C;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+	color: #66594C;
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+	background: cornflowerblue;
+	color: #fff;
 }
