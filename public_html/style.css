@@ -3,6 +3,7 @@ body{
 	padding:0;
 	width:100%;
 	background-color: #66594C;
+	font-family: "Roboto Thin"	;
 }
 
 .navbar-collapse{
@@ -17,9 +18,8 @@ body{
 	font-family: "Roboto Thin";
 	margin-bottom: 0px;
 	margin-top: 0px;
-}
-.container{
-	color: whitesmoke;
+	color: #66594C;
+	text-align: center;
 }
 
 .about-img {
@@ -49,6 +49,7 @@ body{
 	color: whitesmoke;
 	margin: 10px;
 	text-align: center;
+	margin-bottom: 5px;
 }
 
 .contact{
@@ -101,6 +102,7 @@ body{
 
 .gcap{
 	text-align: center;
+	padding: 5px;
 }
 
 .g-recaptcha {
