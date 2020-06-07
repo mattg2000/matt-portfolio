@@ -130,3 +130,19 @@ body{
 	background: cornflowerblue;
 	color: #fff;
 }
+
+.btn-github {
+	background: skyblue;
+	border-radius: 0;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #66594C;
+}
+.btn-github:link, .btn-github:visited {
+	color: #66594C;
+}
+.btn-github:active, .btn-github:hover {
+	background: cornflowerblue;
+	color: #fff;
+}
